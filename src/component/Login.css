@@ -28,6 +28,7 @@
     top: -10px;
     left: 10px;
     background-color: white;
+    color: #bb82f0;
     padding: 0 5px;
     z-index: 1;
   }
@@ -44,4 +45,14 @@
  
   }
   
+  .btn-purple {
+    color: #ffffff;
+    background-color: hsl(271, 100%, 62%); /* Purple color */
+    border-color: #bb82f0; /* Purple color */
+  }
   
+  .btn-light-purple {
+    border-color: #bb82f0;/* Text color */
+    background-color: hsl(270, 87%, 82%); /* Light purple background color */
+   
+  }

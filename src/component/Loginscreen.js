@@ -66,7 +66,7 @@ const Login = () => {
           </div>
           <div className="d-grid gap-2">
             {/* Use Link to navigate to '/user' when button is clicked */}
-            <Link to="/user" className="btn btn-primary submit-button">
+            <Link to="/user" className="btn btn-purple submit-button">
               Login
             </Link>
           </div>
