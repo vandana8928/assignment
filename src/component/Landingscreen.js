@@ -16,7 +16,7 @@ const Home = () => {
               Create An Account
             </Link>
             {/* Link to Login Page */}
-            <Link to="/login" className="btn btn-primary btn-block">
+            <Link to="/loginscreen" className="btn btn-primary btn-block">
               Already Registered? Login
             </Link>
           </div>
