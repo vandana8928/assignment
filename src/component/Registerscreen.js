@@ -40,8 +40,8 @@ const Register = () => {
   };
 
   return (
-    <div className="register-container">
-      <div className="register-card">
+    <div className="container register-container">
+      <div className="card register-card">
         <h2 className="register-title">Register</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-input-container">

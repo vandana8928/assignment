@@ -70,3 +70,33 @@
   background-color: hsl(270, 87%, 82%); /* Light purple background color */
  
 }
+/* styles.css */
+
+/* Default styles for radio inputs */
+.radio-input input[type="radio"] {
+  /* Hide the default radio button */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+/* Custom styles for checked radio inputs */
+.radio-input input[type="radio"]:checked {
+  /* Change the color of the radio button (the dot) */
+  background-color:#bb82f0;
+  border-color: hsl(271, 100%, 62%);
+}
+
+
+/* Optional: Style the label text for radio inputs */
+.radio-input label {
+  margin-left: 8px; /* Add spacing between radio button and label */
+  cursor: pointer;
+}

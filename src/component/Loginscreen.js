@@ -32,8 +32,8 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-card p-4">
+    <div className=" container login-container">
+      <div className=" card login-card p-4">
         <h2 className="login-title text-center mb-4">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-input-container mb-3">

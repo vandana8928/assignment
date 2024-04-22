@@ -6,7 +6,7 @@ import './UserCard.css';
 
 const UserCard = () => {
   return (
-    <div className="user-card">
+    <div className="card user-card">
       <h4 className="account-settings-title">Account Settings</h4>
       <div className="content">
         <div className="profile-picture-container">
