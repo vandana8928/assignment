@@ -1,0 +1,47 @@
+/* src/component/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-container .login-card {
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+  }
+  
+  .login-container .login-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-container  .form-input-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-container .form-label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    padding: 0 5px;
+    z-index: 1;
+  }
+  
+  .login-container.form-control {
+    padding: 0.5rem;
+    padding-left: 10px;
+    border-radius: 0;
+    border: 1px solid #ced4da;
+  }
+  
+  .login-container .submit-button {
+    margin-top: 1.5rem;
+ 
+  }
+  
+  
