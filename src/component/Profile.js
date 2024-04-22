@@ -6,6 +6,7 @@ import './UserCard.css';
 
 const UserCard = () => {
   return (
+    <div className='container'>
     <div className="card user-card">
       <h4 className="account-settings-title">Account Settings</h4>
       <div className="content">
@@ -30,6 +31,7 @@ const UserCard = () => {
         ever since the 1500s, when an unknown printer took a galley of type
         and scrambled it to make a type specimen book.
       </p>
+    </div>
     </div>
   );
 };
